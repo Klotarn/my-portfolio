@@ -42,7 +42,7 @@ educations:
   - education-name: technical-college-graduate
     show: true
     school-name: "NTI-Gymnasiet Uppsala"
-    ongoing: true
+    ongoing: false
     start-month: august-short
     start-year: "2024"
     end-month: june-short
