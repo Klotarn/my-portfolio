@@ -39,6 +39,14 @@ interests:
 # prettier-ignore
 show-educations: true
 educations:
+  - education-name: business-a
+    show: false
+    school-name: "Uppsala Universitet"
+    ongoing: true
+    start-month: september-short
+    start-year: "2025"
+    end-month: january-short
+    end-year: "2026"
   - education-name: technical-college-graduate
     show: true
     school-name: "NTI-Gymnasiet Uppsala"
