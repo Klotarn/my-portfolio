@@ -41,6 +41,7 @@
                             </svg><!-- <i class="fa-solid fa-graduation-cap"></i> Font Awesome fontawesome.com --></span>{{language.education-section-title}}
                     </h2>
                     {{#each general.educations}}
+                    {{#if this.show}}
                     <hr />
                     <div class="block education-block">
                         <div class="block-top-content flex-row align-items-center">
@@ -61,6 +62,7 @@
                         </div>
                         <p class="block-info school-name">{{this.school-name}}</p>
                     </div>
+                    {{/if}}
                     {{/each}}
                 </section>
                 {{/if}}
